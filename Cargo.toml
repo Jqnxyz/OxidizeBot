@@ -12,6 +12,9 @@ panic = "abort"
 debug = true
 
 [patch.crates-io]
-runestick = { git = "https://github.com/rune-rs/rune" }
-rune = { git = "https://github.com/rune-rs/rune" }
-rune-modules = { git = "https://github.com/rune-rs/rune" }
+runestick = { git = "https://github.com/rune-rs/rune", branch = "main" }
+rune = { git = "https://github.com/rune-rs/rune", branch = "main" }
+rune-modules = { git = "https://github.com/rune-rs/rune", branch = "main" }
+
+warp = { git = "https://github.com/aknuds1/warp", branch = "chore/upgrade-tokio" }
+irc = { git = "https://github.com/aatxe/irc", branch = "develop" }
